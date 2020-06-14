@@ -4,20 +4,51 @@
 }
 
 body {
-  background-color: #888;
+  background-color: #ebd3b1;
 }
 
 .container {
   background-color: #fff;
 }
 
+.carousel-inner .carousel-item img {
+  height: 520px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #product .card {
   margin: 10px auto;
+}
+
+#product .card img {
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#product .card-img-overlay {
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 120px;
+  border-radius: 0 0 50% 0;
+}
+
+#product .card-img-overlay h5 {
+  margin-bottom: 5px;
+}
+
+#product .card-img-overlay p {
+  margin-bottom: 0;
 }
 
 footer {
   height: 60px;
   line-height: 60px;
   color: #fff;
+}
+
+footer p {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

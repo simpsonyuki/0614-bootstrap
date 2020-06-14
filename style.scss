@@ -3,16 +3,50 @@
     margin: 0;
 }
 body{
-    background-color: #888;
+    background-color: #ebd3b1;
 }
 .container{
     background-color: #fff;
 }
+// banner
+.carousel-inner{
+
+    .carousel-item{
+
+        img{
+            height: 520px;
+            // 作用跟background-image-size:cover一樣,只是作用跟background-image-size僅能用在background-image,而object-fit可以作用於"元素"
+            object-fit: cover;
+
+        }
+    }
+}
+
+
 
 // 產品介紹
 #product{
     .card{
         margin: 10px auto;
+
+        img{
+            height: 320px;
+            object-fit: cover;
+        }
+    }
+    .card-img-overlay{
+        height: 110px;
+        background-color: rgba(0, 0, 0, .5);
+        width: 120px;
+        border-radius: 0 0 50% 0;
+        
+        h5{
+            margin-bottom: 5px;
+
+        }
+        p{
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -22,4 +56,8 @@ footer{
     height: 60px;
     line-height: 60px;
     color: #fff;
+
+    p{
+        margin-bottom: 0;
+    }
 }
