@@ -2,12 +2,40 @@
     padding: 0;
     margin: 0;
 }
+
+$mainColor: #ebd3b1;
+
 body{
-    background-color: #ebd3b1;
+    background-color: $mainColor;
 }
 .container{
     background-color: #fff;
 }
+
+// 選單
+.navbar-light {
+
+    .nav-item{
+
+        .nav-link{
+    
+            &:hover{
+                color: $mainColor;
+            }
+        }
+    }
+
+    .navbar-toggler{
+        border: 0;
+    
+        &:focus{
+            outline:0;
+        }
+    }
+}
+
+
+
 // banner
 .carousel-inner{
 

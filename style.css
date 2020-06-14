@@ -11,6 +11,18 @@ body {
   background-color: #fff;
 }
 
+.navbar-light .nav-item .nav-link:hover {
+  color: #ebd3b1;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: 0;
+}
+
 .carousel-inner .carousel-item img {
   height: 520px;
   -o-object-fit: cover;
