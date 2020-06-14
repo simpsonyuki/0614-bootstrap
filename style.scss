@@ -1,4 +1,25 @@
 *{
-    padding: 0
-    margin: 0
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #888;
+}
+.container{
+    background-color: #fff;
+}
+
+// 產品介紹
+#product{
+    .card{
+        margin: 10px auto;
+    }
+}
+
+
+// footer
+footer{
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
 }
